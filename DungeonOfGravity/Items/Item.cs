@@ -14,6 +14,7 @@ namespace DungeonOfGravity.Items
             Weight = weight;
         }
 
+        public bool CanPickup { get; set; }
         public string Name { get; private set; }
         public int Weight { get; private set; }
     }

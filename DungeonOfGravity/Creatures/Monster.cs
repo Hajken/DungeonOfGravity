@@ -8,5 +8,6 @@ namespace DungeonOfGravity.Creatures
 {
     class Monster
     {
+
     }
 }

@@ -10,12 +10,11 @@ namespace DungeonOfGravity.Creatures
 {
     abstract class Creature
     {
-        public int Strength { get; set; }
-        public int Agility { get; set; }
-        public int Magic { get; set; }
-        public int Distance { get; set; }
 
         public int Health { get; protected set; }
+
+        //add this later
+       // public int MovementSpeed { get; protected set; }
 
         public bool IsDead { get; set; }
         public int Level { get; set; }
@@ -23,12 +22,13 @@ namespace DungeonOfGravity.Creatures
         public int Y { get; set; }
         public List<Item> Inventory { get; set; }
 
-        public Creature(int health, int x, int y)
+        public Creature(int health,int level, int x, int y)
         {
             Health = health;
+            Level = level;
+            IsDead = false;
             X = x;
             Y = y;
-            IsDead = false;
             Inventory = new List<Item>();
         }
 

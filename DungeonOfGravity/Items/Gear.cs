@@ -13,8 +13,8 @@ namespace DungeonOfGravity.Items
 
         }
 
-        //stats
-        public bool CanBeEquipped { get; set; }
+
+        //witch class can wear this item
         public string ForClass { get; set; }
 
     }
