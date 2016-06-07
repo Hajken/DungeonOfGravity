@@ -44,7 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Creatures\Creature.cs" />
-    <Compile Include="Creatures\Monster.cs" />
+    <Compile Include="Creatures\Monsters\Goblin.cs" />
+    <Compile Include="Creatures\Monsters\Monster.cs" />
     <Compile Include="Creatures\Player.cs" />
     <Compile Include="Extensions\RandomExtensions.cs" />
     <Compile Include="GameActions\CreatureAction.cs" />

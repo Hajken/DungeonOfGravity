@@ -11,7 +11,7 @@ namespace DungeonOfGravity.Creatures
     abstract class Creature
     {
 
-        public int Health { get; protected set; }
+        public int Health { get;  set; }
 
         //add this later
        // public int MovementSpeed { get; protected set; }
