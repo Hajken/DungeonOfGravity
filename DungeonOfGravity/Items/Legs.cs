@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace DungeonOfGravity.Items
 {
-    class Legs
+    class Legs : Gear
     {
+        public Legs(string name, int weight) : base(name, weight)
+        {
+
+        }
+        public int Protection { get; set; }
     }
 }

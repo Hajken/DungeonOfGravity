@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace DungeonOfGravity.Items
 {
-    class Rign
+    class Ring : Gear
     {
+        public Ring(string name, int weight) : base(name, weight)
+        {
+
+        }
+
+
     }
 }

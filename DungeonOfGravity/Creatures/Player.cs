@@ -8,7 +8,7 @@ namespace DungeonOfGravity.Creatures
 {
     class Player : Creature
     {
-        //when create player the player starts at lvl 1.
+        //when create player the player starts at lvl 1. and with hardcoded stats
         public Player(string userName, int x, int y) : base(1000, 1, x, y)
         {
             Name = userName;
