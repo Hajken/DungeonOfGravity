@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DungeonOfGravity.Items
+namespace DungeonOfGravity.Items.GearItems
 {
     class Weapon : Gear
     {

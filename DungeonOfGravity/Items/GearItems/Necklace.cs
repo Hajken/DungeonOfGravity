@@ -4,15 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DungeonOfGravity.Items
+namespace DungeonOfGravity.Items.GearItems
 {
-    class Ring : Gear
+    class Necklace : Gear
     {
-        public Ring(string name, int weight) : base(name, weight)
+        public Necklace(string name, int weight) : base(name, weight)
         {
 
         }
-
 
     }
 }

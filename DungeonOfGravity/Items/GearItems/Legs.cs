@@ -4,17 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DungeonOfGravity.Items
+namespace DungeonOfGravity.Items.GearItems
 {
-    class Boots : Gear
+    class Legs : Gear
     {
-        public Boots(string name, int weight) : base(name, weight)
+        public Legs(string name, int weight) : base(name, weight)
         {
 
         }
-
         public int Protection { get; set; }
-        public int SpeedBoost { get; set; }
-
     }
 }
