@@ -8,5 +8,13 @@ namespace DungeonOfGravity.Items
 {
     class Item
     {
+        public Item(string name, int weight)
+        {
+            Name = name;
+            Weight = weight;
+        }
+
+        public string Name { get; private set; }
+        public int Weight { get; private set; }
     }
 }
