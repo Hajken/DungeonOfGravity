@@ -11,7 +11,7 @@ namespace DungeonOfGravity.GameActions
     {
         Dungeon _dungeon = new Dungeon();
        
-        public void CreateWorld(int height, int width)
+        public Dungeon CreateWorld(int height, int width)
         {
 
             _dungeon.Rooms = new Room[height, width];
@@ -22,7 +22,8 @@ namespace DungeonOfGravity.GameActions
                     _dungeon.Rooms[row, col] = new Room();
                 }
             }
-            
+
+            return _dungeon;
         }
     }
 }

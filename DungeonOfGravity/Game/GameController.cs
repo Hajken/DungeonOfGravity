@@ -11,21 +11,47 @@ namespace DungeonOfGravity.Game
 {
     class GameController
     {
-        int _worldWidth;
-        int _worldHeight;
+        const int _worldWidth = 10;
+        const int _worldHeight= 10;
         Player _player;
+
+        //The dungeon 
         Dungeon _dungeon = new Dungeon();
+
+        //this will call all actions
         PlayerAction _playerAction = new PlayerAction();
+        WorldAction _worldAction = new WorldAction();
         string userName;
 
+
+        public GameController()
+        {
+
+        }
 
         public void Start()
         {
             Console.WriteLine("Welcome to Dungeon Of Gravity!");
-            Console.WriteLine("Pick a UserName: ");
-            userName = Console.ReadLine();
-            _player=_playerAction.CreatePlayer(userName);
+
+            CreateWorld();
+            Console.WriteLine("The Dungeon is waiting for you!!!");
+
+            CreatePlayer();
 
         }
+
+        private void CreateWorld()
+        {
+            _dungeon = _worldAction.CreateWorld(_worldHeight, _worldWidth);
+        }
+
+        private void CreatePlayer()
+        {
+            Console.WriteLine("Pick a UserName: ");
+            userName = Console.ReadLine();
+            _player = _playerAction.CreatePlayer(userName);
+        }
+
+
     }
 }
