@@ -22,13 +22,11 @@ namespace DungeonOfGravity.Creatures
         public int Y { get; set; }
         public List<Item> Inventory { get; set; }
 
-        public Creature(int health,int level, int x, int y)
+        public Creature(int health,int level)
         {
             Health = health;
             Level = level;
             IsDead = false;
-            X = x;
-            Y = y;
             Inventory = new List<Item>();
         }
 

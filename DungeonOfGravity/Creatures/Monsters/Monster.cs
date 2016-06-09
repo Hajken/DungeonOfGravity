@@ -8,7 +8,7 @@ namespace DungeonOfGravity.Creatures.Monsters
 {
     abstract class Monster: Creature
     {
-        public Monster( int level, int health,int experienceWhenKilled, int attackDamage, int x, int y) : base(health, level, x, y)
+        public Monster( int level, int health,int experienceWhenKilled, int attackDamage) : base(health, level)
         {
             ExperienceWhenKilled = experienceWhenKilled;
             AttackDamage = attackDamage;

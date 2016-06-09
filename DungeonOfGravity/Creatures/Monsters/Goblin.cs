@@ -8,7 +8,7 @@ namespace DungeonOfGravity.Creatures.Monsters
 {
     class Goblin: Monster
     {
-        public Goblin(int level, int health, int experienceWhenKilled, int attackDamage, int x, int y) : base(level,health, experienceWhenKilled, attackDamage, x, y)
+        public Goblin(int level, int health, int experienceWhenKilled, int attackDamage) : base(level,health, experienceWhenKilled, attackDamage)
         {
 
         }

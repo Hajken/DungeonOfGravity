@@ -9,7 +9,7 @@ namespace DungeonOfGravity.Creatures
     class Player : Creature
     {
         //when create player the player starts at lvl 1. and with hardcoded stats
-        public Player(string userName, int x, int y) : base(1000, 1, x, y)
+        public Player(string userName, int health, int level) : base(health, level)
         {
             Name = userName;
             PlayerClss = "Rookie";
@@ -18,12 +18,15 @@ namespace DungeonOfGravity.Creatures
             Agility = 10;
             Distance = 10;
             Magic = 0;
+            Energy = 0;
         }
+
 
         public string Name { get; set; }
 
         public int Experience { get; set; }
 
+        public int Energy { get; set; }
         //in future his will not be string
         public string PlayerClss { get; set; }
 

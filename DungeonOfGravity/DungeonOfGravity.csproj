@@ -52,6 +52,7 @@
     <Compile Include="GameActions\GameAction.cs" />
     <Compile Include="GameActions\PlayerAction.cs" />
     <Compile Include="GameActions\WorldAction.cs" />
+    <Compile Include="Game\GameController.cs" />
     <Compile Include="Items\FoodItems\Food.cs" />
     <Compile Include="Items\GearItems\Armor.cs" />
     <Compile Include="Items\GearItems\Boots.cs" />

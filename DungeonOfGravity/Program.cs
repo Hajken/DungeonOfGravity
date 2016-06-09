@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DungeonOfGravity.Game;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,8 @@ namespace DungeonOfGravity
     {
         static void Main(string[] args)
         {
+            GameController startGame = new GameController();
+            startGame.Start();
         }
     }
 }

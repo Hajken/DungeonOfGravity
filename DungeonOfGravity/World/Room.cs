@@ -1,12 +1,18 @@
-﻿using System;
+﻿using DungeonOfGravity.Creatures;
+using DungeonOfGravity.Extensions;
+using DungeonOfGravity.Items;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace DungeonOfGravity.World
 {
     class Room
     {
+        public Room()
+        {
+           
+        }
+        public List<Creature> CreatureInRoom { get; set; }
+        public List<Item> TreasuresInRoom { get; set; }
     }
 }
