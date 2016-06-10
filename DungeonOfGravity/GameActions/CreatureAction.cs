@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace DungeonOfGravity.GameActions
 {
+    //future to have this in own thread
     class CreatureAction
     {
     }

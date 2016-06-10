@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DungeonOfGravity.Creatures
 {
-    class Player : Creature
+     public class Player : Creature
     {
         //when create player the player starts at lvl 1. and with hardcoded stats
         public Player(string userName, int health, int level) : base(health, level)

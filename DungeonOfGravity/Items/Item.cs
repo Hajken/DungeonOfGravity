@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DungeonOfGravity.Items
 {
-    class Item
+    public class Item
     {
         public Item(string name, int weight)
         {

@@ -69,7 +69,6 @@
     <Compile Include="Items\GearItems\Weapon.cs" />
     <Compile Include="PlayerClasses\Druid.cs" />
     <Compile Include="PlayerClasses\Knight.cs" />
-    <Compile Include="PlayerClasses\MainClass.cs" />
     <Compile Include="PlayerClasses\Paladin.cs" />
     <Compile Include="PlayerClasses\Rookie.cs" />
     <Compile Include="PlayerClasses\Sorcerer.cs" />

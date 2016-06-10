@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DungeonOfGravity.GameActions
 {
-    class PlayerAction
+    public class PlayerAction
     {
         Player _player;
 
