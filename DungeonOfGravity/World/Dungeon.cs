@@ -8,7 +8,7 @@ namespace DungeonOfGravity.World
 {
     class Dungeon
     {
-        //change later to list 
+        
         public Room[,] Rooms { get; set; }
     }
 }

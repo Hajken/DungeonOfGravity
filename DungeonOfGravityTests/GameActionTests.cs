@@ -1,9 +1,6 @@
-﻿
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using DungeonOfGravity.GameActions;
-using DungeonOfGravity.Creatures;
-using System.Collections.Generic;
-using DungeonOfGravity.Items;
+
 
 namespace DungeonOfGravityTests
 {

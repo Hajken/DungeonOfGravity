@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="nunit.framework, Version=3.2.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +47,7 @@
     <Compile Include="Creatures\Creature.cs" />
     <Compile Include="Creatures\Monsters\Goblin.cs" />
     <Compile Include="Creatures\Monsters\Monster.cs" />
+    <Compile Include="Creatures\Monsters\Ogre.cs" />
     <Compile Include="Creatures\Player.cs" />
     <Compile Include="Extensions\RandomExtensions.cs" />
     <Compile Include="GameActions\CreatureAction.cs" />

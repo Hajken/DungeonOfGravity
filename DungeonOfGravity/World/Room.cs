@@ -2,6 +2,7 @@
 using DungeonOfGravity.Extensions;
 using DungeonOfGravity.Items;
 using System.Collections.Generic;
+using DungeonOfGravity.Creatures.Monsters;
 
 
 namespace DungeonOfGravity.World
@@ -12,7 +13,7 @@ namespace DungeonOfGravity.World
         {
            
         }
-        public List<Creature> CreatureInRoom { get; set; }
-        public List<Item> TreasuresInRoom { get; set; }
+        public Monster CreatureInRoom { get; set; }
+        public Item TreasuresInRoom { get; set; }
     }
 }
